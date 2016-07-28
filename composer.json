@@ -1,0 +1,20 @@
+{
+    "name": "saratonite/simplate",
+    "description": "Simple Templating Engine",
+    "type": "psr-4",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sarath",
+            "email": "sarath.hacks@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "Saratonite\\Template\\" : "src/"
+        }
+    },
+
+    "minimum-stability": "dev",
+    "require": {}
+}
